@@ -10,7 +10,7 @@ const theme = createTheme({
       main: "#ff5722", // Оранжевый цвет
     },
     background: {
-      default: "#f5f5f5", // Светло-серый фон
+      default: "#fff", // Светло-серый фон
     },
   },
   shape: {

@@ -34,6 +34,10 @@ const Form: FC<TodoInputProps> = ({ addTodo }) => {
         variant="contained"
         color="primary"
         onClick={() => handleSubmit()}
+        sx={(theme) => ({
+          fontWeight: 600,
+          color: [theme.palette.background.default],
+        })}
       >
         Add
       </Button>
